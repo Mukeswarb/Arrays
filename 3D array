@@ -1,0 +1,46 @@
+package mukesh;
+
+import java.util.Scanner;
+
+public class mr {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int b=scan.nextInt();
+		int c=scan.nextInt();
+		int d=scan.nextInt();
+	     int[][][] a=new int[b][c][d];
+	     //scaning
+	     //school
+	     for(int i=0;i<b;i++)
+	     {
+	    	 //classroom
+	    	 for(int j=0;j<c;j++)
+	    	 {
+	    		 //students
+	    		 for(int k=0;k<d;k++)
+	    		 {
+	    			 System.out.println("school no "+(i+1)+" class no "+(j+1)+ " age of the students "+(k+1) + " : ");
+	                         a[i][j][k]=scan.nextInt();   			 
+	    		 }
+	    	 }
+	     }
+	               
+	       for(int i=0;i<b;i++)
+	     {
+	    	 
+	    	 for(int j=0;j<c;j++)
+	    	      {
+	    		 
+	    		 for(int k=0;k<d;k++)
+	    		 {
+	    			 System.out.print(a[i][j][k]+" ");
+	    			 
+		         }
+	    		 System.out.println(" ");
+
+	             }
+	    	 System.out.println(" ");
+	       }
+		}
+	}
