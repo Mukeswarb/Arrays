@@ -1,0 +1,24 @@
+package mukesh;
+import java.util.Scanner;
+public class array1 {
+
+	public static void main(String[] args) {
+         long [] a=new long [5];
+		Scanner scan =new Scanner(System.in);
+		//scan 
+		for(int i=0;i<5;i++)
+		{
+			System.out.println("enter the age of the students");
+			a[i]=scan.nextInt();
+		}
+		//print
+		   for(int i=0;i<5;i++)
+		   {
+			   System.out.print(a[i]+" ");
+			   
+		   }
+		
+
+	}
+
+}
